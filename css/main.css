@@ -4,62 +4,179 @@
   font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-  color: white;
-  font-size: 3.75rem;
+html {
+  font-size: 16px;
 }
 
-h2 {
-  color: #088ca5;
+h1 {
+  color: white;
+  font-size: 1.5rem;
 }
 
 h3 {
   font-size: 1.5rem;
-  margin-left: 58px;
 }
 
 p {
   color: #515151;
 }
 
-#navigation {
+#wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.container {
+  max-width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.header h2 {
+  float: left;
+  font-weight: normal;
+  padding-top: 14px;
+  font-size: 1rem;
+  color: #ebebeb;
+}
+.header img {
+  max-width: 15px;
+  padding: 14px;
+}
+
+.header {
   background-color: #373c3f;
+}
+
+.hamburguer {
+  cursor: pointer;
+  float: right;
+  background-color: #000000;
+}
+
+#menu {
+  background-color: #000000;
+  padding-right: 0;
+  padding-bottom: 5%;
+}
+
+ul {
+  float: right;
+  position: absolute;
+  right: 5%;
+}
+ul li {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  font-size: 0.8rem;
+}
+ul li a {
   color: white;
+  float: right;
+}
+
+.ocultar {
+  display: none;
 }
 
 #titular {
-  background-color: #0ca0b6;
+  background-image: url("../img/fondo-celeste.png");
+  background-size: cover;
 }
 
 .web {
   color: white;
   opacity: 0.5;
-  font-size: 2.125rem;
+  float: left;
 }
 
-#robin {
-  background-color: #27212c;
+.arrow {
+  width: 12px;
+  padding-left: 29%;
+  padding-bottom: 54px;
+}
+
+.containerh1 {
+  padding-top: 51px;
+  padding-bottom: 20px;
 }
 
 .h2robin {
   color: #9282a0;
-  text-align: center;
-  width: 70%;
+  width: 65%;
+  background-color: #27212c;
+  float: left;
+  font-size: 0.5rem;
+  padding-left: 5%;
+  padding-top: 35px;
+  padding-bottom: 32px;
 }
 
 #arrow-1 {
   background-color: #bc3183;
-  float: right;
+  float: left;
   width: 30%;
   height: 77px;
+  text-align: center;
+}
+#arrow-1 img {
+  width: 12px;
+  padding-top: 30px;
 }
 
 #arrow-2 {
   background-color: #5b0fa1;
+  text-align: center;
+}
+#arrow-2 img {
+  width: 25px;
+  padding: 46% 0 46% 0;
+}
+
+.images img {
+  width: 100%;
 }
 
 #text {
   background-color: #ebebeb;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+#text h2 {
+  font-size: 1.1rem;
+  padding: 35px 0 26px 0;
+}
+#text p {
+  padding-bottom: 35px;
+  font-size: 0.9rem;
+}
+
+.none {
+  display: none;
+}
+
+.text-container {
+  float: left;
+  width: 100%;
+}
+
+.blaz {
+  color: #088ca5;
 }
 
 /*# sourceMappingURL=main.css.map */
