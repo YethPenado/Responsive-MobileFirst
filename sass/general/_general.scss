@@ -4,20 +4,44 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-h1{
-  color: white;
-  font-size: 3.75rem;
+html{
+  font-size: 16px;
 }
 
-h2{
-  color: #088ca5;
+h1{
+  color: white;
+  font-size: 1.5rem;
 }
 
 h3{
   font-size: 1.5rem;
-  margin-left: 58px;
 }
 
 p{
   color: #515151;
+}
+
+#wrapper{
+  overflow: hidden;
+  width: 100%;
+}
+
+.container{
+  max-width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
 }

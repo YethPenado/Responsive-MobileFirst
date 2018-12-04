@@ -1,9 +1,19 @@
 #titular{
-  background-color: #0ca0b6;
+  background-image: url('../img/fondo-celeste.png');
+  background-size: cover;
 }
 
 .web{
   color: white;
   opacity: 0.5;
-  font-size: 2.125rem;
+  float: left;
+}
+.arrow{
+  width: 12px;
+  padding-left: 29%;
+  padding-bottom: 54px;
+}
+.containerh1{
+  padding-top: 51px;
+  padding-bottom: 20px;
 }
