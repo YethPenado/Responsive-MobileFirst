@@ -10,23 +10,32 @@
 </head>
 
 <body>
-  <div id="container">
+  <div id="wrapper">
     <!--NAVEGACIÓN PRINCIPAL / HAMBURGUESA-->
-    <div id="navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li>PSD WEBSITES</li>
-        <li>UI KITS</li>
-        <li>PREMIUM PSD FILES</li>
-        <li>ABOUT</li>
-        <li>BLOG</li>
-      </ul>
+    <div class="header">
+        <!--header-->
+        <div class="header clearfix">
+          <div class="hamburguer">
+            <img src="img/hamburger.png" id="hamburguer">
+          </div>
+          <h2 class="container">Navigation</h2>
+        </div>
     </div>
+    <ul id="menu" class="ocultar">
+        <li><a href="#">PSD WEBSITES</a></li>
+        <li><a href="#">UI KITS</a></li>
+        <li><a href="#">PREMIUM PSD FILES</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">BLOG</a></li>
+    </ul>
 
     <!--TITULAR -SECCIÓN MÁS LLAMATIVA DEL SITIO-->
-    <div id="titular">
-      <h1>Awesome Free PSD templates & Resources</h1>
+    <div id="titular" class="container">
+      <div class="containerh1">
+        <h1>Awesome Free PSD</h1><h1>Templeates & Resources</h1>
+      </div>
       <p class="web">www.BlazRobar.com</p>
+      <img class="arrow" src="img/arrow.png" alt="Arrow">
     </div>
 
     <!--ROBIN HOOD-->
@@ -51,14 +60,19 @@
     </div>
 
     <!--SECCIÓN DE TEXTO-->
-    <div id="text">
-      <h2>BlazRobar.com</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula ipsum non leo tristique eget facilisis lacus commodo. Curabitur vitae justo lorem, non ornare nibh. Pellentesque pretium, tellus ac ultrices faucibus, nibh mauris dapibus lorem, vitae viverra nisl elit sit amet libero. Nam eu blandit risus.</p>
-      <p>Phasellus imperdiet mattis nulla. Integer gravida imperdiet congue. Proin vitae pretium augue. Donec est sem, mattis et blandit ac, blandit at arcu. Donec tempus tincidunt suscipit. Suspendisse eu vulputate lacus.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula ipsum non leo tristique eget facilisis lacus commodo. Curabitur vitae justo lorem, non ornare nibh. Pellentesque pretium, tellus ac ultrices faucibus, nibh mauris dapibus lorem, vitae viverra nisl elit sit amet libero. Nam eu blandit risus.</p>
-      <p>Phasellus imperdiet mattis nulla. Integer gravida imperdiet congue. Proin vitae pretium augue. Donec est sem, mattis et blandit ac, blandit at arcu. Donec tempus tincidunt suscipit. Suspendisse eu vulputate lacus.</p>
+    <div id="text" class="container clearfix">
+      <h2 class="blaz">BlazRobar.com</h2>
+      <div class="text-container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula ipsum non leo tristique eget facilisis lacus commodo. Curabitur vitae justo lorem, non ornare nibh. Pellentesque pretium, tellus ac ultrices faucibus, nibh mauris dapibus lorem, vitae viverra nisl elit sit amet libero. Nam eu blandit risus.</p>
+        <p>Phasellus imperdiet mattis nulla. Integer gravida imperdiet congue. Proin vitae pretium augue. Donec est sem, mattis et blandit ac, blandit at arcu. Donec tempus tincidunt suscipit. Suspendisse eu vulputate lacus.</p>
+      </div>
+      <div class="text-container none">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula ipsum non leo tristique eget facilisis lacus commodo. Curabitur vitae justo lorem, non ornare nibh. Pellentesque pretium, tellus ac ultrices faucibus, nibh mauris dapibus lorem, vitae viverra nisl elit sit amet libero. Nam eu blandit risus.</p>
+        <p>Phasellus imperdiet mattis nulla. Integer gravida imperdiet congue. Proin vitae pretium augue. Donec est sem, mattis et blandit ac, blandit at arcu. Donec tempus tincidunt suscipit. Suspendisse eu vulputate lacus.</p>
+      </div>
     </div>
   </div>
   <!--END CONTAINER-->
+  <script src="js/script.js"></script>
 </body>
 </html>
